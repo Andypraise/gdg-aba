@@ -468,7 +468,7 @@ hr {
     flex-direction: column;
   }
   .nav-menu li{
-    margin-top: 50px;
+    margin-top: 57px;
   }
   .nav-menu li a{
     color: #ffff;
@@ -483,23 +483,30 @@ hr {
   .hero-img {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 0;
     margin-top: 50px;
-    margin-left: 170px;
+    margin-left: 70px;
   }
   .hero-img img {
     width: 30px;
     height: 30px;
+    
   }
   .hero-img1 {
     left: 67%;
+    text-align: center;
   }
   .hero-img2 {
-    left: 30%;
+    left: 0;
     bottom: -100%;
+    text-align: center;
+  
   }
   .hero-img3 {
     left: 65%;
+    text-align: center;
+    
   }
   .hero-img4 {
     text-align: center;
@@ -507,22 +514,26 @@ hr {
   .hero-img4 img {
     width: 100px;
     height: 100px;
+    margin-left: 30px;
   }
   .hero-img5 {
     left: 0;
-    bottom: -10%;
+    bottom: -30%;
+    text-align: center;
   }
   .hero-img7 {
     top: -20%;
     width: 50px;
     height: 50px;
-    left: 1%;
+    left: -1%;
+    text-align: center;
   }
   .hero-img8 {
     width: 50px;
     height: 50px;
     top: 100%;
     left: 50%;
+    text-align: center;
   }
   .about-feature h2 {
     font-size: 20px;
@@ -566,6 +577,6 @@ hr {
      transition: 100ms;
   }
   .btn{
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
