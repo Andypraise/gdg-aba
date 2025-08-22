@@ -440,7 +440,7 @@ hr {
 @media (max-width: 768px) {
   .open-all {
     width: 100%;
-    height: 450px;
+    height: 500px;
   }
   .nav-bar {
     width: 100%;
@@ -457,10 +457,10 @@ hr {
     width: 45%;
     height: 500px;
     position: absolute;
-    top: 7%;
+    top: 0;
     left: 0;
     background-color: #b5bac2;
-   
+   z-index: 2;
     border-radius:  0 10px 10px 0;
   }
   .nav-menu {
@@ -486,7 +486,12 @@ hr {
     align-items: center;
     padding: 0;
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left:10px ;
+    text-align: center;
+    z-index: 1;
+    max-width: 300px;
+    
+  
   }
   .hero-img img {
     width: 30px;
@@ -494,17 +499,19 @@ hr {
     
   }
   .hero-img1 {
-    left: 67%;
+    left: 17%;
     text-align: center;
+    overflow: hidden;
   }
-  .hero-img2 {
-    left: 0;
-    bottom: -100%;
-    text-align: center;
-  
+  .hero-img2{
+    overflow: hidden;
   }
+.hero-img3 img{
+  position: absolute;
+}
   .hero-img3 {
-    left: 65%;
+    position: relative;
+    left: 5%;
     text-align: center;
     
   }
@@ -520,12 +527,13 @@ hr {
     left: 0;
     bottom: -30%;
     text-align: center;
+    overflow: hidden;
   }
   .hero-img7 {
-    top: -20%;
+    top: -7%;
     width: 50px;
     height: 50px;
-    left: -1%;
+    left: -40%;
     text-align: center;
   }
   .hero-img8 {
